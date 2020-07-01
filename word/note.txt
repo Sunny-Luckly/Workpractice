@@ -4,9 +4,10 @@
 		   用户名root	  密码  probe123
     共享文件夹	   \\192.168.1.206\share
 
-     公司邮箱：http://mail.probemedical.com/src/login.php
-               用户名：xiqian@probemedical.com
-	       密码：Prunus123#
+     公司邮箱：
+               登陆网址：http://mail.prunusmedical.com/
+               账号：xiqian@prunusmedical.com
+	       密码：Prunu142
 
 二、服务器编译：1.  cd /BR5000/Software
 	        2.  ./build.sh
