@@ -1,0 +1,77 @@
+一、服务器地址：   \\192.168.1.207\br700\source\anaes
+	           \\192.168.1.207
+		   可以用secureCRT操作
+		   用户名root	  密码  probe123
+    共享文件夹	   \\192.168.1.206\share
+
+     公司邮箱：http://mail.probemedical.com/src/login.php
+               用户名：xiqian@probemedical.com
+	       密码：Prunus123#
+
+二、服务器编译：1.  cd /BR5000/Software
+	        2.  ./build.sh
+三、添加文件后，在Makefile.am里面进行相应的修改（vi Makefile.am）
+
+四、环境变量在 budlish里面
+
+五、代码里的字符串（用来查找或者添加）    \Software\App\resource\字符串
+
+六、每个主要界面对应的.C文件   \Software\App\winforms\dialog
+
+七、每个子窗口界面对应的.C文件   \Software\App\winforms\dialog\child
+
+八、SVN账号密码：svn://192.168.0.251/soft group
+		 xiqian		xq123
+
+九、解压缩命令
+	.tar.gz     格式解压为          tar   -zxvf   abc.tar.gz
+  	.tar.gz     格式压缩为          tar   -zcvf   abc.tar.gz  abc
+
+	.tar.bz2    格式解压为          tar   -jxvf   abc.tar.bz2
+	.tar.bz2    格式压缩为          tar   -jcvf   abc.tar.bz2 abc
+
+ 
+十、公司顺丰快递月结号：7551579930 新来的小伙伴们可以收藏下
+
+十一、串口进入命令行   用户名：root  密码： probe123
+
+十二、https://github.com/
+      GitHub账号：Sunny-Luckly
+      密码：xq1263330496
+      邮箱：18392372942@163.com
+      每次都要输入密码 git config --global credential.helper store
+      username:probe-sten
+      passwd:probe-123
+
+十三、bugfree http://192.168.0.251/bugfree/login.php
+      账号：席骞
+      密码：123 
+      
+十四、#ifdef WIN32
+	OutputDebugString("------showMeasuredValuesDlg-----\r\n");
+      #endif
+十五、错误 528 error BK1506: 无法打开文件“.\Debug\GUI_GetClientRect.sbr” F:\prob
+      解决方法：project->set->Browser Info->去钩
+
+十六、D:\D盘\Adobe Illustrator CC 2018\Support Files\Contents\Windows
+十七、供气流速：1-50L/min；默认值：5L/min；步长：0.1L/min；
+AIRPASSAGCTRL_COM_PROT.h
+case VENTMODE_VCV
+APC_Unpack_BreathSetting_Ack
+send_packet_to_air
+配置文件“E:\Virtual Machines\Ubuntu 18(64bit)\Ubuntu 18(64bit).vmx”是由 VMware 产品创建，但该产品与此版 VMware Workstation 不兼容，因此无法使用。
+
+无法打开配置文件 E:\Virtual Machines\Ubuntu 18(64bit)\Ubuntu 18(64bit).vmx。
+
+暂时屏蔽报警音量(提交测试时打开)
+二十、(WM_IsVisible(g_hDialogBox[FUNCTIONCHECK]))判断一个窗口是否有效
+	  WM_IsEnabled(WM_GetDialogItem(g_hDialogBox[MAINWINDOW], DISPLAYSETTINGS_WAVE_ID_1))//判断一个控件是否有效
+21、char shell[512];
+    sprintf(shell, "echo 'APC_Unpack_Func: 0x%02x, 0x%02x, 0x%02x, 0x%02x, 0x%02x, 0x%02x, 0x%02x, 0x%02x, 0x%02x, 0x%02x'>>FunctionCheck.txt"
+            ,  StructMsg[0],StructMsg[1],StructMsg[2],StructMsg[3],StructMsg[4],StructMsg[5]
+            ,  StructMsg[6],StructMsg[7],StructMsg[8],StructMsg[9]);
+    system(shell);
+22.UART3_CMD_H_SETMODE   = 0X88,          /*系统测试、自检、O2校准*/
+23.Uart2Data_Unpack_SysConfig //PC配置软件
+24.TRACE("GetModuleFileName failed (%d)\n", GetLastErro工具打印信息
+25.ParamRestrict.h 参数制约关系
