@@ -1,8 +1,8 @@
-一、服务器地址：   \\192.168.1.207\br700\source\anaes
+一、服务器地址：\\192.168.1.207\br700\source\anaes
 	           \\192.168.1.207
 		   可以用secureCRT操作
 		   用户名root	  密码  probe123
-    共享文件夹	   \\192.168.1.206\share
+    共享文件夹 \\192.168.1.206\share
 
      公司邮箱：
                登陆网址：http://mail.prunusmedical.com/
@@ -10,7 +10,7 @@
 	       密码：Prunu142
 
 二、服务器编译：1.  cd /BR5000/Software
-	        2.  ./build.sh
+		2.  ./build.sh
 三、添加文件后，在Makefile.am里面进行相应的修改（vi Makefile.am）
 
 四、环境变量在 budlish里面
@@ -22,7 +22,7 @@
 七、每个子窗口界面对应的.C文件   \Software\App\winforms\dialog\child
 
 八、SVN账号密码：svn://192.168.0.251/soft group
-		 xiqian		xq123
+		xiqian		xq123
 
 九、解压缩命令
 	.tar.gz     格式解压为          tar   -zxvf   abc.tar.gz
@@ -76,3 +76,7 @@ send_packet_to_air
 23.Uart2Data_Unpack_SysConfig //PC配置软件
 24.TRACE("GetModuleFileName failed (%d)\n", GetLastErro工具打印信息
 25.ParamRestrict.h 参数制约关系
+26.qt 搜索 ctrl+shift+f
+27.	cbd_info_init() ;初始化串口信息
+	msg_uart_init();
+28.serial_init.c //设备和串口初始化的一些内容
